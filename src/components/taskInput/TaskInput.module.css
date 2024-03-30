@@ -1,0 +1,73 @@
+.addInput{
+    width: 500px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.addInput::placeholder{
+    font-size: 20px;
+}
+.addBtn{
+    border: none;
+    width: 100px;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background:  #800080;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    color:  #fff;
+}
+.textMain{
+    font-size: 60px;
+    padding-top: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color:  #6A0DAD;
+}
+.textSec{
+    color:  #6A0DAD;
+}
+
+@media only screen and (max-width: 768px) {
+    .textMain{
+        font-size: 20px;
+        color:  #6A0DAD;
+        text-align: center;
+    }
+    .textSec{
+        color:  #6A0DAD;
+        font-size: 10px;
+        text-align: center;
+    }
+    .addInput{
+        width: 200px;
+        height: 30px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .addInput::placeholder{
+        font-size: 10px;
+    }
+    .addBtn{
+        border: none;
+        width: 50px;
+        height: 32px;
+        padding: 0;
+        margin-left: 10px;
+        padding-top: 2px;
+        border-radius: 5px;
+        background:  #800080;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        color:  #fff;
+    }
+  }

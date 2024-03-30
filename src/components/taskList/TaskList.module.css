@@ -1,0 +1,40 @@
+.listWrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.listTodo{
+    border: 1px solid wheat;
+    width: max-content;
+    height: 50px;
+    background: honeydew;
+    /* color: white; */
+    font-size: 25px;
+    padding-inline: 15px;
+    font-weight: 600;
+}
+.removeTodo{
+    border: none;
+    width: 90px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background:  rgb(120, 216, 120);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.todoWrap{
+    display: flex;
+}
+.listText{
+    font-size: 100px !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .listHeading{
+        font-size: 20px;
+    }
+}
